@@ -12,16 +12,16 @@ interface SEOProps {
 }
 
 const defaultMeta = {
-  siteName: "agozaliBlog",
-  title: "agozaliBlog - Personal Blog about Coding, Technology & Development",
+  siteName: "Ahmad Gozali",
+  title: "Ahmad Gozali - Personal Blog about Coding, Technology & Development",
   description:
-    "agozaliBlog adalah blog personal yang berbagi insight, tutorial, dan pengalaman seputar coding, web development, dan teknologi terkini. Dibuat oleh Ahmad Gozali.",
-  image: "/og-image.jpg",
+    "Ahmad Gozali adalah blog personal yang berbagi insight, tutorial, dan pengalaman seputar coding, web development, dan teknologi terkini. Dibuat oleh Ahmad Gozali.",
+  image: "/favicon.png",
   url: typeof window !== "undefined" ? window.location.origin : "",
   author: "Ahmad Gozali",
   keywords:
-    "blog programming, tutorial coding, web development, teknologi, react, laravel, javascript, typescript, ahmad gozali, agozali",
-  twitterHandle: "@agozali",
+    "blog programming, tutorial coding, web development, teknologi, react, laravel, javascript, typescript, ahmad gozali, ahmad-gozali",
+  twitterHandle: "@ahmadgozali",
   locale: "id_ID",
 };
 
@@ -104,9 +104,9 @@ export function SEO({
     name: defaultMeta.author,
     url: defaultMeta.url,
     sameAs: [
-      "https://github.com/agozali",
-      "https://linkedin.com/in/agozali",
-      "https://twitter.com/agozali",
+      "https://github.com/gozali97",
+      "https://linkedin.com/in/ahmadgozali",
+      "https://twitter.com/ahmadgozali",
     ],
   };
 
